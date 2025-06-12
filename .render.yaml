@@ -3,7 +3,7 @@ services:
     name: meu-descontinho-bot
     env: python
     buildCommand: "pip install -r requisitos.txt"
-    startCommand: "python bot_do_amazon_scrape.py"
+    startCommand: "python bot_from_amazon_scrape.py"
     plan: free
     region: oregon
     branch: main
