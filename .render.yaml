@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: meu-descontinho-bot
+    env: python
+    buildCommand: "pip install -r requisitos.txt"
+    startCommand: "python bot_do_amazon_scrape.py"
+    plan: free
+    region: oregon
+    branch: main
+    autoDeploy: true
